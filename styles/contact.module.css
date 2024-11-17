@@ -1,0 +1,45 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.schoolMap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width:767px){
+    .schoolMap{
+        display: flex;
+        flex-direction: column;
+    }
+    .map{
+        width: 100%;
+    }
+    .map1{
+        margin: 0px !important;
+        width: 80% !important;
+
+    }
+   .mapImage1{
+    margin: 0px !important;
+    width: 100% !important;
+   }
+   .mapImage2{
+    margin: 0px !important;
+    width: 100% !important;
+   }
+   .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.schoolMap{
+    margin: 20px !important;
+}
+  
+}

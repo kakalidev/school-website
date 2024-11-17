@@ -1,0 +1,71 @@
+.cardSection{
+    margin-top: 10px;   
+    margin-bottom: 50px; 
+}
+.cardSection2{
+    margin-top: 10px;   
+    margin-bottom: 50px; 
+    width: 33%;
+}
+.card1{
+    margin: 10px;
+    
+}
+.card2{
+    margin: 10px;
+}
+.card3{
+    margin: 10px;
+}
+.cardHeading{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.card4{
+    width: 33% !important;
+}
+.card5{
+    display: none;
+}
+.card6{
+    display: none;
+}
+
+@media only screen and (max-width:767px){
+    .cardHeading{
+        font-size: 40px !important;
+        margin-left: 25px;
+        margin-bottom: 50px;
+        margin-top: 50px !important;
+    }
+    .card1{
+        margin-bottom: 80px !important;
+    }
+    .card2{
+        margin-bottom: 80px !important;
+    }
+    .card3{
+        margin-bottom: 80px !important;
+
+    }
+    .manageHeading{
+        font-size: 40px !important;
+    }
+}
+
+/* @media only screen and (min-width:768px){
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .card1{
+        margin-bottom: 30px !important;
+    }
+    .card2{
+        margin-bottom: 30px !important;
+    }
+    .card3{
+        margin-bottom: 30px !important;
+    }
+} */

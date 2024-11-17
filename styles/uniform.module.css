@@ -1,0 +1,8 @@
+@media only screen and (max-width:767px){
+    /* .container{
+        width: 96% !important;
+    } */
+     .uniHeading{
+        font-size: 50px !important;
+     }
+}

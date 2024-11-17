@@ -1,0 +1,40 @@
+@media only screen and (max-width:767px){
+    .playCol{
+        width: 98%;
+        margin-left: 7px;
+    }
+    .playRow{
+        margin-top: 20px !important;
+    }
+    .playHeading{
+        margin-top: 20px !important;
+    }
+    .heroImageInner{
+        margin-left: 2px;
+        margin-top: 40px !important;
+    }
+    .playRow{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+/* @media only screen and (min-width:768px){
+    .playCol{
+        width: 98%;
+        margin-left: 7px;
+    }
+    .playRow{
+        margin-top: 20px !important;
+    }
+    .playHeading{
+        margin-top: 20px !important;
+    }
+    .heroImageInner{
+      width: 100% !important;
+        margin-top: 40px !important;
+    }
+    .imgCol{
+        width: 100% !important;
+    }
+
+} */

@@ -1,0 +1,38 @@
+@media only screen and (max-width:767px){
+    .libCol{
+        width: 98%;
+        margin-left: 7px;
+    }
+    .libHeading{
+        margin-top: 40px !important;
+    }
+    .heroImageInner{
+        margin-left: 2px;
+        margin-top: 40px !important;
+    }
+    .libRow{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+.libCol{
+    margin-bottom: 50px;
+}
+/* @media only screen and (min-width:768px){
+    .libCol{
+        width: 98%;
+        margin-left: 7px;
+    }
+    .libHeading{
+        margin-top: 40px !important;
+    }
+    .heroImageInner{
+        
+        margin-top: 40px !important;
+        width: 100% !important;
+    }
+    .imgCol{
+        width: 100% !important;
+    }
+} */

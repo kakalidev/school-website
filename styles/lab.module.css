@@ -1,0 +1,35 @@
+@media only screen and (max-width:767px){
+    .labCol{
+        width: 98%;
+        margin-left: 7px;
+    }
+    .labHeading{
+        margin-top: 40px !important;
+    }
+    .heroImageInner{
+        margin-left: 2px;
+        margin-top: 40px !important;
+    }
+    .labRow{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+.labCol{
+    margin-bottom: 50px;
+}
+/* @media only screen and (min-width:768px){
+    .labCol{
+        width: 98%;
+        margin-left: 7px;
+
+    }
+    .imgCol{
+        width: 100% !important;
+    }
+    .heroImageInner{
+       
+        margin-top: 40px !important;
+        width: 100% !important;
+    }
+} */

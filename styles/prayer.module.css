@@ -1,0 +1,56 @@
+.block {
+    border: none;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-bottom: -30px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+  }
+  
+  .blockHeading {
+    font-size: 20px;
+  }
+  
+  .blockHeading:before {
+    content: open-quote;
+    font-weight: bold;
+    font-size: 100px;
+    color: #800000;
+    position: relative;
+    top: 45px;
+  }
+  
+  .blockHeading:after {
+    content: close-quote;
+    font-weight: bold;
+    font-size: 100px;
+    color: #800000;
+    position: relative;
+    left: 165px;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+  }
+  .prayerVideo{
+    margin-top: 300px;
+  }
+
+  @media only screen and (max-width:767px){
+    .prayHeading{
+      font-size: 50px !important;
+      margin-top: 40px;
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+      padding: 20px !important;
+    }
+    .prayerVideo{
+      margin-top: 30px;
+    }
+    .pray{
+      width: 100%;
+    }
+  }

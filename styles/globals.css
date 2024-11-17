@@ -1,0 +1,124 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans&family=Pacifico&family=Poppins:wght@300;400;500;700&display=swap');
+
+.parallax {
+    /* The image used */
+    background-image: url('../public/banner3.jpeg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mainNav{
+    height: 100px;
+    background-color: #fffef4;
+  }
+  .navImage{
+    border-radius: 50%;
+   
+  }
+  .navItems{
+    color: #91640F;
+  
+  }
+  li{
+    font-size: 20px;
+  }
+  p{
+    font-size: 20px;
+    font-family: "Poppins", serif;
+  }
+  h1{
+    font-size: 60px !important;
+    color: #800000 !important;
+    position: relative;
+    width: fit-content;
+    font-family: "Montserrat", sans-serif;
+
+
+  }
+  h1::after{
+    content: "";
+    width: 100%;
+    height: .15rem;
+    background: #800000;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+  }
+  button{
+    background: #800000;
+  
+  }
+
+  .accordion-button, .accordion-button:not(.collapsed) {
+    background-color: #800000 !important;
+    color: white !important;
+  }
+.nav-link, .dropdown-item{
+  font-size: 18px !important;
+  font-weight: 600 !important
+}
+
+  .nav-link:hover, .dropdown-item:hover {
+    /* padding: 0 !important; */
+    background-color: #800000 !important;
+    color: #FFF !important;
+    transition: all .5s ease;
+    
+
+  }
+
+  .nav-tabs {
+    width: 85% !important;
+    margin:auto !important;
+    margin-top: 20px !important;
+  }
+
+  .nav-tabs .nav-link {
+    padding: 20px;
+    color:#800000 !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+  }
+
+  .nav-tabs .nav-link:hover {
+    color: #FFF !important;
+  }
+
+  .card {
+    border-radius: 0 !important;
+}
+@media only screen and (max-width:767px){
+  .nav-tabs.nav-fill{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    width: 100% !important;
+  }
+  .img1{
+    width: 100% !important;
+    margin-bottom: 30px !important;
+  }
+  .rowSection{
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    margin-left: 2px !important;
+  }
+  .galleryHeading{
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+  }
+
+  .navbar-collapse {
+    background-color: #FFF;
+    z-index: 5;
+    position: relative;
+  }
+}

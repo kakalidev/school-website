@@ -1,0 +1,63 @@
+.cardSection{
+    margin-top: 100px;
+}
+.card1{
+    margin: 10px;
+    display: flex;
+    align-items: flex-start;
+    border: none;
+    
+}
+
+.card2{
+    margin: 10px;
+}
+.card3{
+    margin: 10px;
+}
+
+.img1{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    
+
+}
+.studentMain{
+
+    width: 100vw;
+}
+
+@media only screen and (max-width:767px){
+   .rowSection{
+    display: flex;
+    flex-direction: column;
+   }
+   .card1{
+    margin-bottom: 40px;
+   }
+   .charHeading{
+    font-size: 40px !important;
+    margin-left: 30px;
+    margin-right: 10px;
+   }
+   .charPara{
+    margin-left: 30px;
+    margin-top: 30px;
+   }
+}
+/* @media only screen and (min-width:768px){
+    .rowSection{
+        display: flex;
+        flex-direction: column;
+       }
+       .charPara{
+        margin-left: 30px !important;
+       }
+       .charHeading{
+        font-size: 60px !important;
+        margin-left: 30px;
+        margin-right: 10px;
+       }
+     
+} */
